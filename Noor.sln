@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noor.TaxiWebApi", "Noor.TaxiWebApi\Noor.TaxiWebApi.csproj", "{8AC519A4-B2B6-4F02-8F51-27822121B429}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noor.Core", "Noor.Core\Noor.Core.csproj", "{71C521BE-A73D-49BD-893C-996B53D53B69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noor.DataLayer", "Noor.DataLayer\Noor.DataLayer.csproj", "{1135A7EF-46E3-44C8-9BCE-C9B7FBED1EDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{8AC519A4-B2B6-4F02-8F51-27822121B429}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AC519A4-B2B6-4F02-8F51-27822121B429}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AC519A4-B2B6-4F02-8F51-27822121B429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71C521BE-A73D-49BD-893C-996B53D53B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C521BE-A73D-49BD-893C-996B53D53B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C521BE-A73D-49BD-893C-996B53D53B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C521BE-A73D-49BD-893C-996B53D53B69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1135A7EF-46E3-44C8-9BCE-C9B7FBED1EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1135A7EF-46E3-44C8-9BCE-C9B7FBED1EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1135A7EF-46E3-44C8-9BCE-C9B7FBED1EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1135A7EF-46E3-44C8-9BCE-C9B7FBED1EDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
